@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "agentfarm" }
+    agent { label "agentfarm" }
     environment {
         KEY_FILE = '/home/ubuntu/.ssh/vm-instance-key.pem'
         USER = 'ubuntu'
