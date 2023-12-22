@@ -1,8 +1,9 @@
-- name: Update website
+-
+name: Update website
   hosts: webservers
   become: yes
   become_user: root
 
   roles:
-  - /home/ubuntu/ansible-webserver1/roles/website
+  - /home/ubuntu/ansible-webserver/roles/website
 
