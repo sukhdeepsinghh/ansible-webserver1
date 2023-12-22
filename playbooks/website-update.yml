@@ -1,5 +1,4 @@
--
-name: Update website
+- name: Update website
   hosts: webservers
   become: yes
   become_user: root
