@@ -4,5 +4,5 @@
   become_user: root
 
   roles:
-   - /home/ubuntu/ansible-webserver/roles/website
+   - /home/ubuntu/ansible-webserver1/roles/website
 
